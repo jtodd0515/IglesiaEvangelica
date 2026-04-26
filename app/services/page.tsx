@@ -9,7 +9,7 @@ export default function ServicesPage() {
         <h2 className="text-xl font-bold text-black dark:text-zinc-50">Domingo</h2>
         <p className="text-lg text-gray-600 dark:text-gray-400">3:00 pm - 5:00 pm</p>
         <h2 className="text-xl font-bold text-black dark:text-zinc-50">Miércoles</h2>
-        <p className="text-lg text-gray-600 dark:text-gray-400">7:00 pm - 10:00 pm</p>
+        <p className="text-lg text-gray-600 dark:text-gray-400">7:00 pm - 8:30 pm</p>
         <h2 className="text-xl font-bold text-black dark:text-zinc-50">Viernes</h2>
         <p className="text-lg text-gray-600 dark:text-gray-400">7:00 pm - 9:00 pm</p>
         <Image src="/sanctuary.jpg" alt="sanctuary" width={400} height={400} className="mt-8" />
