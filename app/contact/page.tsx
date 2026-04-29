@@ -6,9 +6,7 @@ import Map from "@/components/Map";
 export default function ContactPage() {
     const message = "No dude en contactarnos si tiene alguna pregunta.";
     const containerStyle = {
-        display: 'flex',
-        justifyContent: 'flex-end',
-        padding: '0px',
+        padding: '20px',
         width: '100%',
         height: '400px'
 };
@@ -23,9 +21,12 @@ export default function ContactPage() {
                 <h1 className="text-3xl font-semibold leading-20 tracking-tight text-black dark:text-zinc-50">Envíanos un correo electrónico</h1>
                 <EmailLink email="zuly@eagchurch.life" />
                 <h1 className="text-3xl font-semibold leading-20 tracking-tight text-black dark:text-zinc-50">Llámanos</h1>
-                <p><FaPhone /> (919) 641-7373</p>
+                <p><FaPhone /> (919) 730-2729</p>
                 <h1 className="text-3xl font-semibold leading-20 tracking-tight text-black dark:text-zinc-50">Visítanos</h1>
-                <p>821 Tucker st Burlington, NC 27215</p>
+                <p>821 Tucker st Burlington, NC 27215
+                  <br />
+                  desde la calle Tucker, entra por las puertas blancas en el lado derecho del edificio, el estacionamiento está al lado del edificio.
+                </p>
                 <div style={containerStyle}><Map /></div>
             </main>
         </div>

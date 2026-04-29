@@ -2,9 +2,7 @@
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import { MdPadding } from 'react-icons/md';
 
-const containerStyle = {
-  display: 'flex',
-  justifyContent: 'flex-end',
+const containerStyle = { 
   padding: '20px',
   width: '25%',
   height: '400px'

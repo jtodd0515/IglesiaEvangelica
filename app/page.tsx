@@ -20,14 +20,14 @@ export default function Home() {
             Bienvenidos a Evangel Church Burlington. Somos Una Iglesia Que Cree En El Padre Hijo y El Espíritu Santo
             </p>
             <p className="text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Visita nuestra página de {""}
+            Visita nuestra página de {" "}
               <a
                 href="https://www.facebook.com/people/Iglesia-Evang%C3%A9lica-de-Burlington/61572259824320/"
                 className="font-medium text-zinc-950 dark:text-zinc-50"
               >
                 Facebook
               </a>{" "}
-            
+            o llámanos al (919) 730-2729.
           </p>
         </div>
       </main>
