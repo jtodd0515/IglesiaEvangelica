@@ -17,7 +17,7 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-  .mobile-only { display: none; }
+  .mobile-only { display: inline-block; }
   .desktop-only { display: block; }
 }
 
